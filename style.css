@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Meeriweather", serif;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  display: flex;
+  max-width: 1160px;
+  margin: auto auto;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+  align-items: center;
+  /* background-color: brown; */
+  /* align-items: center; */
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.search {
+  background-color: #ededed;
+  /* position: relative; */
+  max-width: 184px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.search input {
+  float: right;
+  padding: 10px 20px 9px 20px;
+  border: none;
+  font-size: 17px;
+  background-color: transparent;
+  color: #c4c4c4;
+  border: none;
+  outline: none;
+  margin-left: -10px;
+  width: 130px;
+}
+
+.search a li .fas {
+  list-style: none;
+}
+
+/* -------hero-section------- */
+
+.container {
+  max-width: 1160px;
+  margin: auto auto;
+}
+
+.container.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-content {
+  width: 557px;
+  align-items: center;
+  /* background-color: chartreuse; */
+  margin-top: 88px;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+}
+
+p {
+  /* display: block; */
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #a0a0a0;
+  text-align: center;
+  line-height: 28px;
+  width: 440px;
+  /* background-color: darkgoldenrod; */
+}
+
+.highlight {
+  color: #004687;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #004687;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  box-shadow: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 172px;
+}
+
+/* -------mid section */
+
+.mid-section {
+  margin-top: 90px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.container.img {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.image {
+  display: inline-block;
+  max-width: 752px;
+  position: static;
+  float: none;
+}
+
+.tag {
+  font-size: 20px;
+  color: #004687;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.para-2 {
+  font-size: 18px;
+  text-align: left;
+  color: #a0a0a0;
+  width: 400px;
+  margin: 0;
+}
+
+.text-content {
+  padding: 41px 10px 41px 47px;
+  box-shadow: 0 15px 35px 0px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 30px;
+  /* margin-top: 10px;
+  margin-bottom: auto; */
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  right: auto;
+  bottom: auto;
+  /* display: none; */
+}
+
+.social-icon {
+  background-color: transparent;
+  display: flex;
+  z-index: 999;
+  margin-top: 350px;
+  margin-left: 90px;
+}
+
+.icon {
+  padding: 0 15px;
+}
+
+.right-mockup {
+  display: flex;
+}
+
+.container.last-section {
+  margin-top: 90px;
+  margin-bottom: 130px;
+}
+.feature {
+  border-radius: 20px;
+  background-color: #004687;
+  padding: 60px 145px;
+  /* height: 70vh; */
+  display: flexbox;
+  box-shadow: 0px 12px 40px 0px rgba(196, 196, 196, 1);
+}
+
+.ft {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 73px;
+}
+
+.ft-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* align-content: center; */
+}
+
+.ft-img.margin {
+  margin-bottom: 82px;
+}
+
+.caption {
+  margin: 0;
+  width: 155px;
+  padding: 0px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.img-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem 10rem;
+  /* max-width: 120px; */
+}
+
+.profile {
+  display: block;
+  max-width: 82px;
+  align-self: center;
+}
