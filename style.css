@@ -13,6 +13,10 @@ body {
   box-sizing: border-box;
 }
 
+.navbar {
+  padding: 0 60px;
+}
+
 .navbar-container {
   display: flex;
   max-width: 1160px;
@@ -73,6 +77,10 @@ body {
 }
 
 /* -------hero-section------- */
+
+.hero-section {
+  padding: 0 60px;
+}
 
 .container {
   max-width: 1160px;
@@ -140,8 +148,8 @@ p {
 
 .mid-section {
   margin-top: 90px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .container.img {
@@ -216,9 +224,12 @@ h2 {
   display: flex;
 }
 
+/* -----Last Section */
+
 .container.last-section {
   margin-top: 90px;
   margin-bottom: 130px;
+  padding: 0 60px;
 }
 .feature {
   border-radius: 20px;
