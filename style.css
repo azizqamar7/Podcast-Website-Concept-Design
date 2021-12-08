@@ -39,6 +39,11 @@ body {
   font-weight: 700;
 }
 
+.nav-link:hover {
+  color: #004687;
+  transition: 0.3ms all ease;
+}
+
 .search {
   background-color: #ededed;
   /* position: relative; */
